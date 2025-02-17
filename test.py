@@ -61,10 +61,10 @@
 # print(list)
 
 #函数
-def reverseWords(input): 
+# def reverseWords(input): 
       
     # 通过空格将字符串分隔符，把各个单词分隔为列表
-    inputWords = input.split(" ") 
+    # inputWords = input.split(" ") 
   
     # 翻转字符串
     # 假设列表 list = [1,2,3,4],  
@@ -73,46 +73,46 @@ def reverseWords(input):
     # 第一个参数 -1 表示最后一个元素
     # 第二个参数为空，表示移动到列表末尾
     # 第三个参数为步长，-1 表示逆向
-    inputWords=inputWords[-1::-1] 
+    # inputWords=inputWords[-1::-1] 
   
     # 重新组合字符串
-    output = ' '.join(inputWords) 
+#     output = ' '.join(inputWords) 
       
-    return output 
+#     return output 
 
-if __name__ == "__main__": 
-    input = 'I like runoob'
-    rw = reverseWords(input) 
-    print(rw)
+# if __name__ == "__main__": 
+#     input = 'I like runoob'
+#     rw = reverseWords(input) 
+#     print(rw)
 
 #集合
-sites = {"google", "taobao", "runoob"}
-print(sites)
-if "runoob" in sites:
-    print("runoob在集合中")
-else:
-    print("runoob不在集合中")
+# sites = {"google", "taobao", "runoob"}
+# print(sites)
+# if "runoob" in sites:
+#     print("runoob在集合中")
+# else:
+#     print("runoob不在集合中")
 
-a = set('adnvdjsaife')
-b = set('lmkokoiip')
-print(a - b)#a集合中去掉b集合中的元素
-print(a | b)#a集合和b集合的并集
-print(a & b)#a集合和b集合的交集
-print(a ^ b)#a集合和b集合的差集
+# a = set('adnvdjsaife')
+# b = set('lmkokoiip')
+# print(a - b)#a集合中去掉b集合中的元素
+# print(a | b)#a集合和b集合的并集
+# print(a & b)#a集合和b集合的交集
+# print(a ^ b)#a集合和b集合的差集
 
 #!/usr/bin/python3
 
-dict = {}
-dict['one'] = "1 - 菜鸟教程"
-dict[2]     = "2 - 菜鸟工具"
+# dict = {}
+# dict['one'] = "1 - 菜鸟教程"
+# dict[2]     = "2 - 菜鸟工具"
 
-tinydict = {'name': 'runoob','code':1, 'site': 'www.runoob.com'}
+# tinydict = {'name': 'runoob','code':1, 'site': 'www.runoob.com'}
 
-print (dict['one'])       # 输出键为 'one' 的值
-print (dict[2])           # 输出键为 2 的值
-print (tinydict)          # 输出完整的字典
-print (tinydict.keys())   # 输出所有键
-print (tinydict.values()) # 输出所有值
+# print (dict['one'])       # 输出键为 'one' 的值
+# print (dict[2])           # 输出键为 2 的值
+# print (tinydict)          # 输出完整的字典
+# print (tinydict.keys())   # 输出所有键
+# print (tinydict.values()) # 输出所有值
 
 #列表推导式
 names = ['bob','tom','alice','jerry','kitty']
@@ -134,8 +134,8 @@ print(dic)
 
 #集合推导式
 # {expression for item in iterable if condition}
-set1 = {i**2 for i in [1,2,3,4,5]}
-print(set1)
+# set1 = {i**2 for i in [1,2,3,4,5]}
+# print(set1)
 
 #[] 是用来创建列表
 #() 是用来创建元组
@@ -174,12 +174,14 @@ if x[0] == ord('h'):
 #数据类型转换
 #隐式类型转换-自动完成
 #显式类型转换-需要使用类型函数来转换
-num_int = 123
-num_flo = 1.23
 
-num_new = num_int + num_flo
+# num_int = 123
+# num_flo = 1.23
 
-print("num_int 数据类型为：",type(num_int))
-print("num_flo 数据类型为：",type(num_flo))
-print("num_new 值为：",num_new)
-print("num_new 数据类型为：",type(num_new))
+# num_new = num_int + num_flo
+
+# print("num_int 数据类型为：",type(num_int))
+# print("num_flo 数据类型为：",type(num_flo))
+# print("num_new 值为：",num_new)
+# print("num_new 数据类型为：",type(num_new))
+
